@@ -1,0 +1,11 @@
+<h2>Series details</h2>
+
+<div *ngIf="serie">
+    <h3>{{ serie.name }}</h3>
+    <h4>{{ serie.price }}</h4>
+    <p>{{ serie.description }}</p>
+
+    <button (click)="addToCart(serie)">
+        Buy
+    </button>
+</div>
