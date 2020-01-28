@@ -21,7 +21,7 @@ import { SerieAlertsComponent } from './serie-alerts/serie-alerts.component';
       { path: '', component: SerieListComponent },
       { path: 'series/:serieId', component: SerieDetailsComponent },
       { path: 'cart', component: CartComponent },
-      { path: 'shipping', component: ShippingComponent },
+      { path: 'cart/shipping', component: ShippingComponent },
     ])
   ],
   declarations: [
