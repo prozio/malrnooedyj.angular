@@ -17,4 +17,10 @@ export class CartComponent {
     ngOnInit() {
         this.items = this.cartService.getItems();
     }
+    
+    clearCart() {
+        this.items = [];
+        window.alert('The product has been removed from cart!');
+    }
+
 }
