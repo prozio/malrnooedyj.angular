@@ -15,7 +15,7 @@ var SerieAlertsComponent = /** @class */ (function () {
     __decorate([
         Input(),
         __metadata("design:type", Object)
-    ], SerieAlertsComponent.prototype, "series", void 0);
+    ], SerieAlertsComponent.prototype, "serie", void 0);
     __decorate([
         Output(),
         __metadata("design:type", Object)
@@ -23,8 +23,7 @@ var SerieAlertsComponent = /** @class */ (function () {
     SerieAlertsComponent = __decorate([
         Component({
             selector: 'app-serie-alerts',
-            templateUrl: './serie-alerts.component.html',
-            styleUrls: ['./serie-alerts.component.css']
+            templateUrl: './serie-alerts.component.html'
         })
     ], SerieAlertsComponent);
     return SerieAlertsComponent;
