@@ -20,7 +20,7 @@ export class SerieDetailsComponent implements OnInit {
 
     ngOnInit() {
         this.route.paramMap.subscribe(params => {
-          this.serie = find(series, );
+          //this.serie = find(series, ['name', params.get('name')]);
           this.serie = series[+params.get('serieId')];
         });
       }
