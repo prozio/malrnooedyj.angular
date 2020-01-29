@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 import { series } from '../series';
-import { SerieDetailsComponent } from '../serie-details/serie-details.component';
 
 @Component({
   selector: 'app-serie-list',
